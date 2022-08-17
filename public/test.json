@@ -1,0 +1,77 @@
+{
+  "status": "success",
+  "data": {
+    "races": [
+      {
+        "id_race": 1647215,
+        "event": {
+          "title": "test",
+          "country": "IE"
+        },
+        "race_type": "D",
+        "post_time": 1439970900,
+        "num_runners": 9,
+        "distance": 1780,
+        "purse": {
+          "amount": 250000,
+          "currency": "test"
+        },
+        "runners": [
+          {
+            "id_runner": 15717421,
+            "name": "test",
+            "odds": 4.7,
+            "silk": ""
+          },
+          {
+            "id_runner": 15717423,
+            "name": "test",
+            "odds": 3,
+            "silk": ""
+          },
+          {
+            "id_runner": 15717425,
+            "name": "test",
+            "odds": 4,
+            "silk": ""
+          }
+        ]
+      },
+      {
+        "id_race": 1647320,
+        "event": {
+          "title": "test",
+          "country": "GB"
+        },
+        "race_type": "J",
+        "post_time": 1440000000,
+        "num_runners": 8,
+        "distance": 4627,
+        "purse": {
+          "amount": 3800,
+          "currency": "GBP"
+        },
+        "runners": [
+          {
+            "id_runner": 15718263,
+            "name": "test",
+            "odds": 2,
+            "silk": "4.png"
+          },
+          {
+            "id_runner": 15718267,
+            "name": "test",
+            "odds": 3.3,
+            "silk": "5.png"
+          },
+          {
+            "id_runner": 15718269,
+            "name": "test",
+            "odds": 3.6,
+            "silk": "6.png"
+          }
+        ]
+      }
+    ]
+  }
+}

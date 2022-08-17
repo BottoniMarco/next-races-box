@@ -1,0 +1,98 @@
+.container{
+  width: 350px;
+  background-color: #333333;
+  border: 3px solid #333333;
+  text-align: center; 
+  margin: auto;
+}
+  
+/* race info container-top */
+.eventInfoTop{
+  height: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid grey;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventInfoTop div:last-child{
+  margin-left: auto;
+}
+
+#flags{
+  height: 20px;
+  margin-right: 15px;
+}
+/* /race info container-top */
+
+/* race info container-bottom */
+.eventInfoBottom{
+  color: white;
+  height: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventInfoBottom img:last-child{
+  margin-left: auto;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+li{
+  display: inline;
+  border-right:1px solid grey;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+li:last-child{
+  border-right:0px solid grey;
+}
+/* /race info container-bottom */
+
+/* runners info */
+.runnerContainer{
+  height: 70px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid grey;
+  padding:0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.runnerContainer div:last-child{
+  margin-left: auto;
+}
+
+.runnerContainer:last-child{
+  margin-bottom: 10px
+}
+
+.silks{
+  height: 25px;
+  margin-right: 5px;
+}
+
+button{
+  height: 35px;
+  width: 55px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #fdd77e, #f8ca6b, #f3bd59, #eeb046, #e9a233);
+  border: 1px solid #eeb046;  
+  font-size: 18px;
+}
+/* /runners info */
